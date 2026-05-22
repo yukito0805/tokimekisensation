@@ -2,22 +2,22 @@ const galleryPhotos = [
   {
     src: "assets/gallery/vlcsnap-2026-05-16-19h14m31s844.png",
     alt: "ステージ写真 1",
-    caption: "Turquoise sparkle"
+    caption: "三人でキメポーズ☆"
   },
   {
-    src: "assets/gallery/DSC07273.jpg",
+    src: "assets/gallery/DSC07526.jpg",
     alt: "ステージ写真 2",
-    caption: "Black and pop"
+    caption: "最高の笑顔"
   },
   {
     src: "assets/gallery/DSC07484.jpg",
     alt: "ステージ写真 3",
-    caption: "Call and dance"
+    caption: "男は背中で語れ"
   },
   {
     src: "assets/gallery/DSC07514.jpg",
     alt: "ステージ写真 4",
-    caption: "Tokimeki stage"
+    caption: "情熱は誰にも負けない"
   }
 ];
 
