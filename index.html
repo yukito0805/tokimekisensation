@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="コピーアイドルグループ、ときめきセンセーションの公式風サイトです。">
+  <title>ときめきセンセーション</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500;700;800&family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="siteHeader" id="top">
+    <a class="brand" href="#top" aria-label="ときめきセンセーション トップへ">
+      <span class="brandMark">TK</span>
+      <span class="brandText">ときめきセンセーション</span>
+    </a>
+
+    <button class="navButton" type="button" aria-expanded="false" aria-controls="globalNav">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span class="srOnly">メニュー</span>
+    </button>
+
+    <nav class="globalNav" id="globalNav" aria-label="グローバルナビゲーション">
+      <a href="#gallery">Photo</a>
+      <a href="#youtube">YouTube</a>
+      <a href="#members">Member</a>
+      <a href="#links">Link</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="heroSection" aria-label="メインビジュアル">
+      <div class="heroGlow heroGlowOne"></div>
+      <div class="heroGlow heroGlowTwo"></div>
+
+      <div class="heroContent">
+        <p class="eyebrow">Nagoya idol respect unit</p>
+        <h1>ときめき<br>センセーション</h1>
+        <p class="heroLead">きらめく躍動感のあるステージで魅せるリスペクトグループ。</p>
+        <div class="heroActions">
+          <a class="primaryButton" href="#gallery">フォトを見る</a>
+          <a class="ghostButton" href="#youtube">動画を見る</a>
+        </div>
+      </div>
+
+      <div class="heroCard" aria-label="メンバー構成">
+        <p class="cardLabel">Members</p>
+        <div class="miniMember turquoise">
+          <span>おちょこ</span>
+          <small>Main dancer</small>
+        </div>
+        <div class="miniMember black">
+          <span>たけっち</span>
+          <small>Call and dancer</small>
+        </div>
+        <div class="miniMember black">
+          <span>社長</span>
+          <small>MC</small>
+        </div>
+      </div>
+    </section>
+
+    <section class="sectionBlock gallerySection" id="gallery">
+      <div class="sectionHead">
+        <p class="eyebrow">Photo gallery</p>
+        <h2>フォトギャラリー</h2>
+      </div>
+
+      <div class="galleryLayout">
+        <figure class="mainPhoto">
+          <img id="mainPhotoImage" src="assets/gallery/photo01.svg" alt="ステージ写真 1">
+          <figcaption id="mainPhotoCaption">Turquoise sparkle</figcaption>
+        </figure>
+
+        <div class="photoThumbs" id="photoThumbs" aria-label="フォトサムネイル"></div>
+      </div>
+    </section>
+
+    <section class="sectionBlock youtubeSection" id="youtube">
+      <div class="sectionHead">
+        <p class="eyebrow">YouTube</p>
+        <h2>YouTube</h2>
+        <p>サムネイルを押すと、その場でYouTubeを再生できます。</p>
+      </div>
+
+      <div class="videoGrid" id="videoGrid"></div>
+    </section>
+
+    <section class="sectionBlock memberSection" id="members">
+      <div class="sectionHead">
+        <p class="eyebrow">Member</p>
+        <h2>メンバー</h2>
+      </div>
+
+      <div class="memberGrid">
+        <article class="memberCard turquoiseCard">
+          <span class="memberColor"></span>
+          <p class="role">Main dancer</p>
+          <h3>おちょこ</h3>
+          <p>表情と動きでステージの中心を作るメインダンサー。</p>
+          <a href="https://x.com/ochoko_sample" target="_blank" rel="noopener">Xを見る</a>
+        </article>
+
+        <article class="memberCard blackCard">
+          <span class="memberColor"></span>
+          <p class="role">Call and dancer</p>
+          <h3>たけっち</h3>
+          <p>合いの手とダンスでフロアの熱量を引き上げるメンバー。</p>
+          <a href="https://x.com/takecchi_sample" target="_blank" rel="noopener">Xを見る</a>
+        </article>
+
+        <article class="memberCard blackCard">
+          <span class="memberColor"></span>
+          <p class="role">MC</p>
+          <h3>社長</h3>
+          <p>MCとしてライブ全体の空気をまとめるメンバー。</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="sectionBlock linksSection" id="links">
+      <div class="sectionHead">
+        <p class="eyebrow">Link</p>
+        <h2>リンク</h2>
+      </div>
+
+      <div class="linkGrid">
+        <a href="https://x.com/tokisentebasen" target="_blank" rel="noopener">公式X</a>
+        <a href="https://x.com/yosakoi_1996" target="_blank" rel="noopener">おちょこ X</a>
+        <a href="https://x.com/tamatsuri_" target="_blank" rel="noopener">たけっち X</a>
+        <a href="https://store.line.me/stickershop/author/325106/ja" target="_blank" rel="noopener">スタンプショップ</a>
+        <a href="https://samplegoods.example.com" target="_blank" rel="noopener">グッズショップ</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="siteFooter">
+    <p>© ときめきセンセーション</p>
+    <a href="#top">Page top</a>
+  </footer>
+
+  <div class="videoModal" id="videoModal" aria-hidden="true">
+    <div class="modalBackdrop" data-close-modal></div>
+    <div class="modalContent" role="dialog" aria-modal="true" aria-label="YouTube player">
+      <button class="modalClose" type="button" data-close-modal aria-label="閉じる">×</button>
+      <div class="iframeBox" id="iframeBox"></div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
